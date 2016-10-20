@@ -1,21 +1,21 @@
 validation:
-  accepted: "The :attribute must be accepted."
-  active_url: "The :attribute is not a valid URL."
-  after: "The :attribute must be a date after :date."
-  alpha: "The :attribute may only contain letters."
-  alpha_dash: "The :attribute may only contain letters, numbers, and dashes."
-  alpha_num: "The :attribute may only contain letters and numbers."
-  array: "The :attribute must be an array."
-  before: "The :attribute must be a date before :date."
+  accepted: ":attribute muss akzeptiert werden."
+  active_url: ":attribute ist keine korrekte Internetadresse."
+  after: ":attribute muss ein Datum nach :date sein."
+  alpha: ":attribute darf nur Buchstaben enthalten."
+  alpha_dash: ":attribute darf nur Buchstaben, Zahlen und Striche enthalten."
+  alpha_num: ":attribute darf nur Buchstaben und Zahlen enthalten."
+  array: ":attribute muss ein Array sein."
+  before: ":attribute muss ein Datum vor :date sein."
   between:
-    numeric: "The :attribute must be between :min and :max."
-    file: "The :attribute must be between :min and :max kilobytes."
-    string: "The :attribute must be between :min and :max characters."
-    array: "The :attribute must have between :min and :max items."
-  boolean: "The :attribute field must be true or false."
-  confirmed: "The :attribute confirmation does not match."
-  date: "The :attribute is not a valid date."
-  date_format: "The :attribute does not match the format :other."
+    numeric: ":attribute muss zwischen :min und :max sein."
+    file: ":attribute muss zwischen :min und :max kilobytes sein."
+    string: ":attribute muss zwischen :min und :max sein."
+    array: ":attribute muss zwischen :min und :max Zeichen sein."
+  boolean: ":attribute  muss true oder false sein."
+  confirmed: ":attribute wurde nicht bestätigt."
+  date: ":attribute ist kein valides Datum."
+  date_format: ":attribute does not match the format :other."
   different: "The :attribute and :other must be different."
   digits: "The :attribute must be :digits digits."
   digits_between: "The :attribute must be between :min and :max digits."
@@ -59,10 +59,10 @@ validation:
   url: "The :attribute format is invalid."
 
   attributes:
-    username: username
-    password: password
-    email: email
-    title: title
-    content: content
-    name_singular: singular name
-    name_plural: plural name
+    username: Der Username
+    password: Das Passwort
+    email: Die E-Mail-Adresse
+    title: Der Titel
+    content: Der Inhalt
+    name_singular: Singular
+    name_plural: Plural
